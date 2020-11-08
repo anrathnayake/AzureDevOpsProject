@@ -39,8 +39,13 @@ steps:
     projects: $(projects)
     arguments: '--configuration $(buildConfiguration)' 
 
--
-  task: PublishPipelineArtifact@1
+- task: DotNetCoreCLI@2
   inputs:
-    targetPath: '$(Pipeline.Workspace)'
+    command: 'publish'
+    publishWebProjects: true
+    arguments: '--configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)'
+
+- task: PublishPipelineArtifact@1
+  inputs:
+    targetPath: '$(Build.ArtifactStagingDirectory)'
     publishLocation: 'pipeline'
