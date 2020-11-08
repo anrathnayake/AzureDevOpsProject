@@ -5,7 +5,6 @@ D:\Azure DevOps\WebApp\WebApp\bin\Release\netcoreapp2.1\WebApp.dll
 D:\Azure DevOps\WebApp\WebApp\bin\Release\netcoreapp2.1\WebApp.pdb
 D:\Azure DevOps\WebApp\WebApp\bin\Release\netcoreapp2.1\WebApp.Views.dll
 D:\Azure DevOps\WebApp\WebApp\bin\Release\netcoreapp2.1\WebApp.Views.pdb
-D:\Azure DevOps\WebApp\WebApp\obj\Release\netcoreapp2.1\WebApp.csprojResolveAssemblyReference.cache
 D:\Azure DevOps\WebApp\WebApp\obj\Release\netcoreapp2.1\WebApp.csproj.CoreCompileInputs.cache
 D:\Azure DevOps\WebApp\WebApp\obj\Release\netcoreapp2.1\WebApp.RazorAssemblyInfo.cache
 D:\Azure DevOps\WebApp\WebApp\obj\Release\netcoreapp2.1\WebApp.RazorAssemblyInfo.cs
